@@ -9,4 +9,4 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIRespon
+class AppDelegate: UIResponder, UIApplicat
