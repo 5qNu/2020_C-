@@ -9,4 +9,4 @@
 import UIKit
 
 @UIApplicationMain
-c
+class AppD
