@@ -8,4 +8,5 @@
 
 import UIKit
 
-@UIAppli
+@UIApplicationMain
+c
