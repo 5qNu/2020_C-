@@ -2,4 +2,5 @@
   "images" : [
     {
       "idiom" : "iphone",
-      "size" : "20
+      "size" : "20x20",
+      "scale" : "2x"
