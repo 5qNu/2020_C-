@@ -37,3 +37,17 @@
                                         <rect key="frame" x="156" y="32" width="76" height="30"/>
                                         <state key="normal" title="Segmenter"/>
                                         <connections>
+                                            <action selector="handleSegmentTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sG0-Yj-4jS"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ktb-nL-XGA">
+                                        <rect key="frame" x="321" y="32" width="33" height="30"/>
+                                        <state key="normal" title="Grey"/>
+                                        <connections>
+                                            <action selector="handelGrayTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fsM-4N-my8"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="Iog-8e-Cre" secondAttribute="bottom" constant="42" id="3Es-Eu-eTj"/>
