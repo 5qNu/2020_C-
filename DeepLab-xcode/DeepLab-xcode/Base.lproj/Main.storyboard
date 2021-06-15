@@ -71,3 +71,15 @@
                             <constraint firstItem="7cC-Iw-U2U" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="LoN-p5-Hhi"/>
                             <constraint firstItem="tvY-AO-jc0" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Yih-xy-Mvg"/>
                             <constraint firstItem="7cC-Iw-U2U" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="cun-al-d3M"/>
+                            <constraint firstItem="tvY-AO-jc0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="o7F-PZ-sGz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="jkX-R4-jfl"/>
+                    <connections>
+                        <outlet property="contentView" destination="tvY-AO-jc0" id="F6E-Kl-kpe"/>
+                        <outlet property="displayView" destination="7cC-Iw-U2U" id="hVR-bk-g1K"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
