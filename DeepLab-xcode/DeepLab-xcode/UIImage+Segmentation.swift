@@ -9,4 +9,4 @@
 import UIKit
 import VideoToolbox
 
-extens
+extension UIImage {
