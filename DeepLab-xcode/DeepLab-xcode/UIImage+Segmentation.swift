@@ -11,4 +11,5 @@ import VideoToolbox
 
 extension UIImage {
     
-    public func segmentation() -> 
+    public func segmentation() -> CGImage? {
+  
