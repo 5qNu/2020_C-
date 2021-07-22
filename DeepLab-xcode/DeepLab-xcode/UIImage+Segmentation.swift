@@ -12,4 +12,4 @@ import VideoToolbox
 extension UIImage {
     
     public func segmentation() -> CGImage? {
-  
+        guard
