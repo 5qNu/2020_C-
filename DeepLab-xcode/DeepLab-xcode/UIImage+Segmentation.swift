@@ -12,4 +12,5 @@ import VideoToolbox
 extension UIImage {
     
     public func segmentation() -> CGImage? {
-        guard var cgImage = self.coarseSegmentati
+        guard var cgImage = self.coarseSegmentation() else {
+  
