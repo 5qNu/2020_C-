@@ -13,4 +13,6 @@ extension UIImage {
     
     public func segmentation() -> CGImage? {
         guard var cgImage = self.coarseSegmentation() else {
-            ret
+            return nil
+        }
+    
