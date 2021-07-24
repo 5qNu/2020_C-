@@ -15,4 +15,4 @@ extension UIImage {
         guard var cgImage = self.coarseSegmentation() else {
             return nil
         }
-        let outpu
+        let outputWidth:CGFl
