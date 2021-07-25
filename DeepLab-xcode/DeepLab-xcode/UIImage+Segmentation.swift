@@ -15,4 +15,5 @@ extension UIImage {
         guard var cgImage = self.coarseSegmentation() else {
             return nil
         }
-        let outputWidth:CGFl
+        let outputWidth:CGFloat = 500.0
+  
