@@ -17,4 +17,4 @@ extension UIImage {
         }
         let outputWidth:CGFloat = 500.0
         let outputSize = CGSize(width: outputWidth, height: outputWidth * (self.size.height / self.size.width))
-        let resizeImg = UIImage(cgImage: cgImage
+        let resizeImg = UIImage(cgImage: cgImage).resize(siz
