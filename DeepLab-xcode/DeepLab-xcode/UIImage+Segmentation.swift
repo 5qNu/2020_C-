@@ -19,4 +19,5 @@ extension UIImage {
         let outputSize = CGSize(width: outputWidth, height: outputWidth * (self.size.height / self.size.width))
         let resizeImg = UIImage(cgImage: cgImage).resize(size: outputSize)!
         let ciImg = CIImage(cgImage: resizeImg.cgImage!)
-        let smoothFilter = SmoothFilt
+        let smoothFilter = SmoothFilter.init()
+   
