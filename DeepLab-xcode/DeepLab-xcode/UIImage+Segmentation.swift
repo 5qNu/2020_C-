@@ -20,4 +20,4 @@ extension UIImage {
         let resizeImg = UIImage(cgImage: cgImage).resize(size: outputSize)!
         let ciImg = CIImage(cgImage: resizeImg.cgImage!)
         let smoothFilter = SmoothFilter.init()
-        smoothFil
+        smoothFilter.inputIma
