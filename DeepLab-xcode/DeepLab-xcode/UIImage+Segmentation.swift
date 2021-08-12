@@ -22,4 +22,4 @@ extension UIImage {
         let smoothFilter = SmoothFilter.init()
         smoothFilter.inputImage = ciImg
  
-     
+        let output
