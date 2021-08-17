@@ -23,4 +23,4 @@ extension UIImage {
         smoothFilter.inputImage = ciImg
  
         let outputImage = smoothFilter.outputImage!
-   
+        let ciCo
