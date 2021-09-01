@@ -23,4 +23,5 @@ extension UIImage {
         smoothFilter.inputImage = ciImg
  
         let outputImage = smoothFilter.outputImage!
-        let ciContext = CIContext(options: 
+        let ciContext = CIContext(options: nil)
+     
