@@ -24,4 +24,5 @@ extension UIImage {
  
         let outputImage = smoothFilter.outputImage!
         let ciContext = CIContext(options: nil)
-        cgImage = ciContext.createCGImage(outputImage, from: ciImg
+        cgImage = ciContext.createCGImage(outputImage, from: ciImg.extent)!
+   
