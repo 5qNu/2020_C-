@@ -26,4 +26,6 @@ extension UIImage {
         let ciContext = CIContext(options: nil)
         cgImage = ciContext.createCGImage(outputImage, from: ciImg.extent)!
         return cgImage
+    }
     
+    pu
