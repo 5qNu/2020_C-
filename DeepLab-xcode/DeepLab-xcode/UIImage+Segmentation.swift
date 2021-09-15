@@ -28,4 +28,5 @@ extension UIImage {
         return cgImage
     }
     
-    public func coarseSegmentation(
+    public func coarseSegmentation() -> CGImage? {
+  
