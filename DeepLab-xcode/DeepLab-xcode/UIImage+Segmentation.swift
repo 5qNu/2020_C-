@@ -28,4 +28,4 @@ extension UIImage {
         return cgImage
     }
     
-    pu
+    public func coarseSe
