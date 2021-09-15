@@ -28,4 +28,4 @@ extension UIImage {
         return cgImage
     }
     
-    public func coarseSe
+    public func coarseSegmentation(
