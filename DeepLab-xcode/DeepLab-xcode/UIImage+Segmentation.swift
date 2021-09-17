@@ -29,4 +29,4 @@ extension UIImage {
     }
     
     public func coarseSegmentation() -> CGImage? {
-        let de
+        let deeplab = DeepLabV3
