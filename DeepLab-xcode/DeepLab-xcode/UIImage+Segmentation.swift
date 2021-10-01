@@ -31,4 +31,4 @@ extension UIImage {
     public func coarseSegmentation() -> CGImage? {
         let deeplab = DeepLabV3.init()
         //input size 513*513
-        let pix
+        let pixBuf = self.pixelB
