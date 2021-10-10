@@ -32,3 +32,4 @@ extension UIImage {
         let deeplab = DeepLabV3.init()
         //input size 513*513
         let pixBuf = self.pixelBuffer(width: 513, height: 513)
+        
