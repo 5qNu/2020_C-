@@ -33,4 +33,5 @@ extension UIImage {
         //input size 513*513
         let pixBuf = self.pixelBuffer(width: 513, height: 513)
         
-        guard let output = try? deeplab.prediction(image: pi
+        guard let output = try? deeplab.prediction(image: pixBuf!) else {
+ 
