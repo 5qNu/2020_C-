@@ -36,3 +36,4 @@ extension UIImage {
         guard let output = try? deeplab.prediction(image: pixBuf!) else {
             return nil
         }
+        
