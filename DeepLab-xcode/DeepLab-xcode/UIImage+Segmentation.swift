@@ -34,4 +34,5 @@ extension UIImage {
         let pixBuf = self.pixelBuffer(width: 513, height: 513)
         
         guard let output = try? deeplab.prediction(image: pixBuf!) else {
-            retu
+            return nil
+        }
