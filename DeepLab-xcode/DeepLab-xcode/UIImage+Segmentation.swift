@@ -37,3 +37,4 @@ extension UIImage {
             return nil
         }
         
+        let shape = out
