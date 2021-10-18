@@ -38,4 +38,4 @@ extension UIImage {
         }
         
         let shape = output.semanticPredictions
-        let (d,w,h) =
+        let (d,w,h) = (Int(truncat
