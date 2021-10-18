@@ -37,4 +37,5 @@ extension UIImage {
             return nil
         }
         
-        let shape = output.semanticPredic
+        let shape = output.semanticPredictions
+       
