@@ -38,4 +38,5 @@ extension UIImage {
         }
         
         let shape = output.semanticPredictions
-        let (d,w,h) = (Int(truncating: shape[0]), Int(truncating: shape[1]), Int(truncating: shape[
+        let (d,w,h) = (Int(truncating: shape[0]), Int(truncating: shape[1]), Int(truncating: shape[2]))
+        let pageS
