@@ -41,4 +41,4 @@ extension UIImage {
         let (d,w,h) = (Int(truncating: shape[0]), Int(truncating: shape[1]), Int(truncating: shape[2]))
         let pageSize = w*h
         var res:Array<Int> = []
-        var pag
+        var pageIndexs:Arra
