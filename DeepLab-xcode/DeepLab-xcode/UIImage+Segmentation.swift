@@ -42,4 +42,4 @@ extension UIImage {
         let pageSize = w*h
         var res:Array<Int> = []
         var pageIndexs:Array<Int> = []
-    
+        for i in 
