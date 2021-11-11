@@ -43,4 +43,5 @@ extension UIImage {
         var res:Array<Int> = []
         var pageIndexs:Array<Int> = []
         for i in 0..<d {
-            pageIndexs.append(pageSize 
+            pageIndexs.append(pageSize * i)
+      
