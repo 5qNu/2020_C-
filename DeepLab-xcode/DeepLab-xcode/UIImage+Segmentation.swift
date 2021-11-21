@@ -46,4 +46,4 @@ extension UIImage {
             pageIndexs.append(pageSize * i)
         }
  
-        
+        func argmax(
