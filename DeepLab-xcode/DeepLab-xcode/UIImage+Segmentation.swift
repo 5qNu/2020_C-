@@ -48,4 +48,4 @@ extension UIImage {
  
         func argmax(arr:Array<Int>) -> Int{
             precondition(arr.count > 0)
-            var 
+            var maxValue = arr
