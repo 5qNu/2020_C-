@@ -50,4 +50,4 @@ extension UIImage {
             precondition(arr.count > 0)
             var maxValue = arr[0]
             var maxValueIndex = 0
-  
+            for i i
