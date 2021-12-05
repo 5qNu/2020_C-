@@ -52,4 +52,4 @@ extension UIImage {
             var maxValueIndex = 0
             for i in 1..<arr.count {
                 if arr[i] > maxValue {
-          
+                    maxValu
