@@ -53,4 +53,5 @@ extension UIImage {
             for i in 1..<arr.count {
                 if arr[i] > maxValue {
                     maxValue = arr[i]
-                    maxValueIndex
+                    maxValueIndex = i
+    
