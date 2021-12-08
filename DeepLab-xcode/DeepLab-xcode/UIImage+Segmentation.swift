@@ -54,4 +54,4 @@ extension UIImage {
                 if arr[i] > maxValue {
                     maxValue = arr[i]
                     maxValueIndex = i
-    
+                }
