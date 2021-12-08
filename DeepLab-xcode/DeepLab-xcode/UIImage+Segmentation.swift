@@ -56,4 +56,4 @@ extension UIImage {
                     maxValueIndex = i
                 }
             }
-    
+            ret
