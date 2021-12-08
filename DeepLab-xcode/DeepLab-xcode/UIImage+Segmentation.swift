@@ -55,3 +55,5 @@ extension UIImage {
                     maxValue = arr[i]
                     maxValueIndex = i
                 }
+            }
+    
