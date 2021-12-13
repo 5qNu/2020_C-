@@ -60,4 +60,5 @@ extension UIImage {
         }
         
         for i in 0..<w {
-            for j in 0..<h
+            for j in 0..<h {
+        
