@@ -62,4 +62,5 @@ extension UIImage {
         for i in 0..<w {
             for j in 0..<h {
                 var itemArr:Array<Int> = []
-                let pageOffset = i * w 
+                let pageOffset = i * w + j
+      
