@@ -65,4 +65,4 @@ extension UIImage {
                 let pageOffset = i * w + j
                 for k in 0..<d {
                     let padding = pageIndexs[k]
-                    itemArr.append(Int(
+                    itemArr.append(Int(truncating: out
