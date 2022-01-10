@@ -68,4 +68,4 @@ extension UIImage {
                     itemArr.append(Int(truncating: output.semanticPredictions[padding + pageOffset]))
                 }
                 /*
-      
+                types m
