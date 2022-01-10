@@ -67,4 +67,5 @@ extension UIImage {
                     let padding = pageIndexs[k]
                     itemArr.append(Int(truncating: output.semanticPredictions[padding + pageOffset]))
                 }
-             
+                /*
+      
