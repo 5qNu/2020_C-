@@ -69,4 +69,4 @@ extension UIImage {
                 }
                 /*
                 types map  [
-         
+                    'bac
