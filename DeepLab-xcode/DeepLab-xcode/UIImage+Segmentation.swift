@@ -69,4 +69,4 @@ extension UIImage {
                 }
                 /*
                 types map  [
-                    'background', 'aeroplane', 'bicycle', 'b
+                    'background', 'aeroplane', 'bicycle', 'bird', 'boat', '
