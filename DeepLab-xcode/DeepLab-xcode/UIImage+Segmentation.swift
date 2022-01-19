@@ -70,4 +70,4 @@ extension UIImage {
                 /*
                 types map  [
                     'background', 'aeroplane', 'bicycle', 'bird', 'boat', 'bottle', 'bus',
-                    'car', 'cat', 'chair', 'cow', 
+                    'car', 'cat', 'chair', 'cow', 'diningt
