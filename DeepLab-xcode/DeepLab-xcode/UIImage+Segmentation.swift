@@ -71,4 +71,4 @@ extension UIImage {
                 types map  [
                     'background', 'aeroplane', 'bicycle', 'bird', 'boat', 'bottle', 'bus',
                     'car', 'cat', 'chair', 'cow', 'diningtable', 'dog', 'horse', 'motorbike',
-                    'person', 'p
+                    'person', 'pottedplant', 'she
