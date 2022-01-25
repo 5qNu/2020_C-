@@ -73,3 +73,4 @@ extension UIImage {
                     'car', 'cat', 'chair', 'cow', 'diningtable', 'dog', 'horse', 'motorbike',
                     'person', 'pottedplant', 'sheep', 'sofa', 'train', 'tv'
                     ]
+              
