@@ -74,4 +74,5 @@ extension UIImage {
                     'person', 'pottedplant', 'sheep', 'sofa', 'train', 'tv'
                     ]
                  */
-                let type = argmax(arr: ite
+                let type = argmax(arr: itemArr)
+ 
