@@ -75,4 +75,4 @@ extension UIImage {
                     ]
                  */
                 let type = argmax(arr: itemArr)
- 
+              
