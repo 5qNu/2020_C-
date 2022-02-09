@@ -79,4 +79,4 @@ extension UIImage {
             }
         }
         
-        let bytesPer
+        let bytesPerComponent = MemoryLayout
