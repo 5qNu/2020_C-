@@ -80,4 +80,4 @@ extension UIImage {
         }
         
         let bytesPerComponent = MemoryLayout<UInt8>.size
-        let bytesPerPixel = by
+        let bytesPerPixel = bytesPerComponent * 4
