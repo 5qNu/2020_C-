@@ -82,4 +82,5 @@ extension UIImage {
         let bytesPerComponent = MemoryLayout<UInt8>.size
         let bytesPerPixel = bytesPerComponent * 4
         let length = pageSize * bytesPerPixel
-        var data = Data(coun
+        var data = Data(count: length)
+ 
