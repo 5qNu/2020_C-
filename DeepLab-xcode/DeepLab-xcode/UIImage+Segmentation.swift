@@ -83,4 +83,4 @@ extension UIImage {
         let bytesPerPixel = bytesPerComponent * 4
         let length = pageSize * bytesPerPixel
         var data = Data(count: length)
-        data.withUnsafeMutableBytes { (bytes: UnsafeMutablePointer<UIn
+        data.withUnsafeMutableBytes { (bytes: UnsafeMutablePointer<UInt8>) -> 
