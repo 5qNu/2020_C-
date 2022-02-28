@@ -84,4 +84,4 @@ extension UIImage {
         let length = pageSize * bytesPerPixel
         var data = Data(count: length)
         data.withUnsafeMutableBytes { (bytes: UnsafeMutablePointer<UInt8>) -> Void in
-            
+            var pointer = 
