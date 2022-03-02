@@ -85,4 +85,5 @@ extension UIImage {
         var data = Data(count: length)
         data.withUnsafeMutableBytes { (bytes: UnsafeMutablePointer<UInt8>) -> Void in
             var pointer = bytes
-            
+            /*
+            Thi
