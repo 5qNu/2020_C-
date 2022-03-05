@@ -86,4 +86,4 @@ extension UIImage {
         data.withUnsafeMutableBytes { (bytes: UnsafeMutablePointer<UInt8>) -> Void in
             var pointer = bytes
             /*
-            This reserved on
+            This reserved only [cat,dog,person]
