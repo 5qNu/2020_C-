@@ -88,4 +88,5 @@ extension UIImage {
             /*
             This reserved only [cat,dog,person]
             */
-            let r
+            let reserve = [8,12,15]
+ 
