@@ -87,4 +87,5 @@ extension UIImage {
             var pointer = bytes
             /*
             This reserved only [cat,dog,person]
-         
+            */
+      
