@@ -88,4 +88,4 @@ extension UIImage {
             /*
             This reserved only [cat,dog,person]
             */
-      
+            let r
