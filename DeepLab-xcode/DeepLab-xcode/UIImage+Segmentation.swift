@@ -89,4 +89,4 @@ extension UIImage {
             This reserved only [cat,dog,person]
             */
             let reserve = [8,12,15]
-            fo
+            for pix in res{
