@@ -90,4 +90,5 @@ extension UIImage {
             */
             let reserve = [8,12,15]
             for pix in res{
-                let v:UInt8 = reserve.contains(pix) ? 255 : 
+                let v:UInt8 = reserve.contains(pix) ? 255 : 0
+            
