@@ -92,4 +92,4 @@ extension UIImage {
             for pix in res{
                 let v:UInt8 = reserve.contains(pix) ? 255 : 0
                 for _ in 0...3 {
-                    poin
+                    pointer.pointee = 
