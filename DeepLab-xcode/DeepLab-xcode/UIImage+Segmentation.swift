@@ -93,4 +93,5 @@ extension UIImage {
                 let v:UInt8 = reserve.contains(pix) ? 255 : 0
                 for _ in 0...3 {
                     pointer.pointee = v
-                    pointer 
+                    pointer += 1
+     
