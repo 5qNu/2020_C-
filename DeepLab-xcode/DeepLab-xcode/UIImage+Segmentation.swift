@@ -97,4 +97,4 @@ extension UIImage {
                 }
             }
         }
-        let prov
+        let provider: CGDataProvide
