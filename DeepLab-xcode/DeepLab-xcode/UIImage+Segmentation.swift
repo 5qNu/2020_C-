@@ -95,4 +95,5 @@ extension UIImage {
                     pointer.pointee = v
                     pointer += 1
                 }
-        
+            }
+        }
