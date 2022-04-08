@@ -97,4 +97,4 @@ extension UIImage {
                 }
             }
         }
-        let provider: CGDataProvider = CGDataProvi
+        let provider: CGDataProvider = CGDataProvider(data: dat
