@@ -98,4 +98,4 @@ extension UIImage {
             }
         }
         let provider: CGDataProvider = CGDataProvider(data: data as CFData)!
-        let cgim
+        let cgimg = CGIma
