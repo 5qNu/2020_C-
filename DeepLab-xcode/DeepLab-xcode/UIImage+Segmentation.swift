@@ -100,4 +100,5 @@ extension UIImage {
         let provider: CGDataProvider = CGDataProvider(data: data as CFData)!
         let cgimg = CGImage(
             width: w,
-         
+            height: h,
+  
