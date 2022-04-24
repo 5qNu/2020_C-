@@ -101,4 +101,5 @@ extension UIImage {
         let cgimg = CGImage(
             width: w,
             height: h,
-            bitsPerComponent: bytesPerComponent
+            bitsPerComponent: bytesPerComponent * 8,
+            b
