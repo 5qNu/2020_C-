@@ -102,4 +102,4 @@ extension UIImage {
             width: w,
             height: h,
             bitsPerComponent: bytesPerComponent * 8,
-            bitsPerPixel: b
+            bitsPerPixel: bytesPerPixel
