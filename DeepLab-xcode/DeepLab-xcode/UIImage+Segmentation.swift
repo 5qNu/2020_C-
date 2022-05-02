@@ -104,4 +104,4 @@ extension UIImage {
             bitsPerComponent: bytesPerComponent * 8,
             bitsPerPixel: bytesPerPixel * 8,
             bytesPerRow: bytesPerPixel * w,
-          
+            space: CGC
