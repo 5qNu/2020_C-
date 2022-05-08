@@ -105,4 +105,5 @@ extension UIImage {
             bitsPerPixel: bytesPerPixel * 8,
             bytesPerRow: bytesPerPixel * w,
             space: CGColorSpaceCreateDeviceRGB(),
-            bitmapInfo: CGBitmapInfo(rawValue: CGBitmapInfo.byteOrder32
+            bitmapInfo: CGBitmapInfo(rawValue: CGBitmapInfo.byteOrder32Big.rawValue),
+ 
