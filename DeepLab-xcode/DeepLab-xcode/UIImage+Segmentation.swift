@@ -107,4 +107,5 @@ extension UIImage {
             space: CGColorSpaceCreateDeviceRGB(),
             bitmapInfo: CGBitmapInfo(rawValue: CGBitmapInfo.byteOrder32Big.rawValue),
             provider: provider,
-           
+            decode: nil,
+      
