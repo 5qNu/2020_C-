@@ -109,3 +109,4 @@ extension UIImage {
             provider: provider,
             decode: nil,
             shouldInterpolate: false,
+            intent:
