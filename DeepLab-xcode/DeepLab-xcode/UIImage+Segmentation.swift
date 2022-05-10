@@ -108,4 +108,4 @@ extension UIImage {
             bitmapInfo: CGBitmapInfo(rawValue: CGBitmapInfo.byteOrder32Big.rawValue),
             provider: provider,
             decode: nil,
-            shouldInterpola
+            shouldInterpolate: false,
