@@ -109,4 +109,5 @@ extension UIImage {
             provider: provider,
             decode: nil,
             shouldInterpolate: false,
-            intent: CGColorRenderingIntent.
+            intent: CGColorRenderingIntent.defaultIntent
+     
