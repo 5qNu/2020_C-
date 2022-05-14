@@ -111,4 +111,4 @@ extension UIImage {
             shouldInterpolate: false,
             intent: CGColorRenderingIntent.defaultIntent
             )
-        r
+        return c
