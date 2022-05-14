@@ -111,4 +111,8 @@ extension UIImage {
             shouldInterpolate: false,
             intent: CGColorRenderingIntent.defaultIntent
             )
-        return c
+        return cgimg
+    }
+}
+
+ex
