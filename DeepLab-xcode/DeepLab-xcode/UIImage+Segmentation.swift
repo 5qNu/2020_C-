@@ -115,4 +115,6 @@ extension UIImage {
     }
 }
 
-extension UII
+extension UIImage {
+
+  publ
