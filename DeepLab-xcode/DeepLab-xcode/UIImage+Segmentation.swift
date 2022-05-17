@@ -117,4 +117,4 @@ extension UIImage {
 
 extension UIImage {
 
-  publ
+  public func pixelBuffe
