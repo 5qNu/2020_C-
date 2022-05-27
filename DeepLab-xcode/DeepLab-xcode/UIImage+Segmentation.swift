@@ -117,4 +117,4 @@ extension UIImage {
 
 extension UIImage {
 
-  public func pixelBuffer(width: Int, 
+  public func pixelBuffer(width: Int, height: In
