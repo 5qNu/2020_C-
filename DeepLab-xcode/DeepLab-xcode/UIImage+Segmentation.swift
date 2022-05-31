@@ -118,4 +118,4 @@ extension UIImage {
 extension UIImage {
 
   public func pixelBuffer(width: Int, height: Int) -> CVPixelBuffer? {
-    return pixelBuffer(width
+    return pixelBuffer(width: width, he
