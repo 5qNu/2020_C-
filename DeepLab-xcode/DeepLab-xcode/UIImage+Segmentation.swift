@@ -120,4 +120,4 @@ extension UIImage {
   public func pixelBuffer(width: Int, height: Int) -> CVPixelBuffer? {
     return pixelBuffer(width: width, height: height,
                        pixelFormatType: kCVPixelFormatType_32ARGB,
-                       colo
+                       colorSpace: CGColor
