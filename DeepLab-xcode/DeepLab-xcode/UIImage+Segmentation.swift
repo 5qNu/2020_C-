@@ -121,4 +121,5 @@ extension UIImage {
     return pixelBuffer(width: width, height: height,
                        pixelFormatType: kCVPixelFormatType_32ARGB,
                        colorSpace: CGColorSpaceCreateDeviceRGB(),
-                       alphaInfo: .n
+                       alphaInfo: .noneSkipFirst)
+  }
