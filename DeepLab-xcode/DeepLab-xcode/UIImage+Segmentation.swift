@@ -123,3 +123,5 @@ extension UIImage {
                        colorSpace: CGColorSpaceCreateDeviceRGB(),
                        alphaInfo: .noneSkipFirst)
   }
+ 
+  func pixe
