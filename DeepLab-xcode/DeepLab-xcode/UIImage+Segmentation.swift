@@ -124,4 +124,4 @@ extension UIImage {
                        alphaInfo: .noneSkipFirst)
   }
  
-  func pixe
+  func pixelBuffer(width: 
