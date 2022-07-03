@@ -125,4 +125,4 @@ extension UIImage {
   }
  
   func pixelBuffer(width: Int, height: Int, pixelFormatType: OSType,
-                   colorSpace: C
+                   colorSpace: CGColorSpace, al
