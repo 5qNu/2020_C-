@@ -125,4 +125,4 @@ extension UIImage {
   }
  
   func pixelBuffer(width: Int, height: Int, pixelFormatType: OSType,
-                   colorSpace: CGColorSpace, alphaInfo: CGImageAlphaIn
+                   colorSpace: CGColorSpace, alphaInfo: CGImageAlphaInfo) -> CVPixe
