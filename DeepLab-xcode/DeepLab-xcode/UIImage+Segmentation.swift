@@ -126,4 +126,5 @@ extension UIImage {
  
   func pixelBuffer(width: Int, height: Int, pixelFormatType: OSType,
                    colorSpace: CGColorSpace, alphaInfo: CGImageAlphaInfo) -> CVPixelBuffer? {
-    var maybePixelBuffer: CV
+    var maybePixelBuffer: CVPixelBuffer?
+ 
