@@ -128,4 +128,5 @@ extension UIImage {
                    colorSpace: CGColorSpace, alphaInfo: CGImageAlphaInfo) -> CVPixelBuffer? {
     var maybePixelBuffer: CVPixelBuffer?
     let attrs = [kCVPixelBufferCGImageCompatibilityKey: kCFBooleanTrue,
-                 kCVPixelBufferCGBitmapContextCompatibilityKey: kC
+                 kCVPixelBufferCGBitmapContextCompatibilityKey: kCFBooleanTrue]
+ 
