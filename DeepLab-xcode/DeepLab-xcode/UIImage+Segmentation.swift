@@ -130,4 +130,4 @@ extension UIImage {
     let attrs = [kCVPixelBufferCGImageCompatibilityKey: kCFBooleanTrue,
                  kCVPixelBufferCGBitmapContextCompatibilityKey: kCFBooleanTrue]
     let status = CVPixelBufferCreate(kCFAllocatorDefault,
-  
+                
