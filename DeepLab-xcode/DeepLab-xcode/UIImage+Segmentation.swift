@@ -132,4 +132,5 @@ extension UIImage {
     let status = CVPixelBufferCreate(kCFAllocatorDefault,
                                      width,
                                      height,
-                                     pixelFormat
+                                     pixelFormatType,
+          
