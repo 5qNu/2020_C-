@@ -133,4 +133,4 @@ extension UIImage {
                                      width,
                                      height,
                                      pixelFormatType,
-                                    
+                                     attrs as CFD
