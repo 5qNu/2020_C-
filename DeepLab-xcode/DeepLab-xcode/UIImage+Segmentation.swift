@@ -134,4 +134,4 @@ extension UIImage {
                                      height,
                                      pixelFormatType,
                                      attrs as CFDictionary,
-                  
+                                     &
