@@ -136,4 +136,4 @@ extension UIImage {
                                      attrs as CFDictionary,
                                      &maybePixelBuffer)
 
-  
+    guard s
