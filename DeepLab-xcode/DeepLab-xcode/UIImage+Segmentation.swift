@@ -136,4 +136,4 @@ extension UIImage {
                                      attrs as CFDictionary,
                                      &maybePixelBuffer)
 
-    guard status == kCVReturnSuccess, let pixelBuffer
+    guard status == kCVReturnSuccess, let pixelBuffer = maybePixelBu
