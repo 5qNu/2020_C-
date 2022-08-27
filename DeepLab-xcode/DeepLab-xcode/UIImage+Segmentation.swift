@@ -137,4 +137,4 @@ extension UIImage {
                                      &maybePixelBuffer)
 
     guard status == kCVReturnSuccess, let pixelBuffer = maybePixelBuffer else {
- 
+      return
