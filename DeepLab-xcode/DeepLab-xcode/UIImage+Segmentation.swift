@@ -140,4 +140,4 @@ extension UIImage {
       return nil
     }
 
-    CVPixelBuffe
+    CVPixelBufferLockBaseAddress(pixelBu
