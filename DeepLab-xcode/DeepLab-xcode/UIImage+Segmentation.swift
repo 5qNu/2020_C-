@@ -141,4 +141,4 @@ extension UIImage {
     }
 
     CVPixelBufferLockBaseAddress(pixelBuffer, CVPixelBufferLockFlags(rawValue: 0))
-    let pixelData = CVPixe
+    let pixelData = CVPixelBufferGetB
