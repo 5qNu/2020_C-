@@ -143,4 +143,5 @@ extension UIImage {
     CVPixelBufferLockBaseAddress(pixelBuffer, CVPixelBufferLockFlags(rawValue: 0))
     let pixelData = CVPixelBufferGetBaseAddress(pixelBuffer)
 
-    guard let context = CGContext(data: pixe
+    guard let context = CGContext(data: pixelData,
+          
