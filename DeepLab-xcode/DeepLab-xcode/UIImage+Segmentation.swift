@@ -144,4 +144,5 @@ extension UIImage {
     let pixelData = CVPixelBufferGetBaseAddress(pixelBuffer)
 
     guard let context = CGContext(data: pixelData,
-                                  width: widt
+                                  width: width,
+   
