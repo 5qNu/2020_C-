@@ -149,4 +149,4 @@ extension UIImage {
                                   bitsPerComponent: 8,
                                   bytesPerRow: CVPixelBufferGetBytesPerRow(pixelBuffer),
                                   space: colorSpace,
-                     
+                                  bit
