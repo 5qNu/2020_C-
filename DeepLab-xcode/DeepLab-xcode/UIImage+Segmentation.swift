@@ -150,4 +150,5 @@ extension UIImage {
                                   bytesPerRow: CVPixelBufferGetBytesPerRow(pixelBuffer),
                                   space: colorSpace,
                                   bitmapInfo: alphaInfo.rawValue)
-    else
+    else {
+      retu
