@@ -151,4 +151,7 @@ extension UIImage {
                                   space: colorSpace,
                                   bitmapInfo: alphaInfo.rawValue)
     else {
-      retu
+      return nil
+    }
+
+  
