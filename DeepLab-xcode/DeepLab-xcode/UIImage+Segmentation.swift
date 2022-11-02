@@ -154,4 +154,5 @@ extension UIImage {
       return nil
     }
 
-    UIGraphicsPushContext(c
+    UIGraphicsPushContext(context)
+    c
