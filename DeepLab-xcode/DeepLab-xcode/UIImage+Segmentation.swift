@@ -155,4 +155,4 @@ extension UIImage {
     }
 
     UIGraphicsPushContext(context)
-    context.transla
+    context.translateBy(x: 0, y
