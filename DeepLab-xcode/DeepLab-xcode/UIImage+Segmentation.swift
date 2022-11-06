@@ -157,4 +157,4 @@ extension UIImage {
     UIGraphicsPushContext(context)
     context.translateBy(x: 0, y: CGFloat(height))
     context.scaleBy(x: 1, y: -1)
-   
+    self.draw(i
