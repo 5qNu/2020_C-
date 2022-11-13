@@ -159,4 +159,4 @@ extension UIImage {
     context.scaleBy(x: 1, y: -1)
     self.draw(in: CGRect(x: 0, y: 0, width: width, height: height))
     UIGraphicsPopContext()
-    CVPixelBufferUnlockB
+    CVPixelBufferUnlockBaseAddress(pixelB
