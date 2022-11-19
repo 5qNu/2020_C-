@@ -160,4 +160,5 @@ extension UIImage {
     self.draw(in: CGRect(x: 0, y: 0, width: width, height: height))
     UIGraphicsPopContext()
     CVPixelBufferUnlockBaseAddress(pixelBuffer, CVPixelBufferLockFlags(rawValue: 0))
-    return p
+    return pixelBuffer
+  }
