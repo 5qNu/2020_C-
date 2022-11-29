@@ -166,4 +166,4 @@ extension UIImage {
 
 extension UIImage {
     
-    func resize(si
+    func resize(size: CGSize!) -> UI
