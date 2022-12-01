@@ -167,4 +167,4 @@ extension UIImage {
 extension UIImage {
     
     func resize(size: CGSize!) -> UIImage? {
-        let rect = CGRect(x: 0.0,
+        let rect = CGRect(x: 0.0, y: 0.0, widt
