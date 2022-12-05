@@ -169,3 +169,4 @@ extension UIImage {
     func resize(size: CGSize!) -> UIImage? {
         let rect = CGRect(x: 0.0, y: 0.0, width: size.width, height: size.height)
         UIGraphicsBeginImageContext(rect.size)
+        self.dra
