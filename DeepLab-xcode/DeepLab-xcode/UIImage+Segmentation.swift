@@ -170,4 +170,4 @@ extension UIImage {
         let rect = CGRect(x: 0.0, y: 0.0, width: size.width, height: size.height)
         UIGraphicsBeginImageContext(rect.size)
         self.draw(in:rect)
-        let img = UIGraphicsGetImag
+        let img = UIGraphicsGetImageFromCurrentIma
