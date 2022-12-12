@@ -171,4 +171,5 @@ extension UIImage {
         UIGraphicsBeginImageContext(rect.size)
         self.draw(in:rect)
         let img = UIGraphicsGetImageFromCurrentImageContext()
-        UIGraphicsEndImage
+        UIGraphicsEndImageContext()
+        
