@@ -172,4 +172,5 @@ extension UIImage {
         self.draw(in:rect)
         let img = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
-        
+        return img
+    }
