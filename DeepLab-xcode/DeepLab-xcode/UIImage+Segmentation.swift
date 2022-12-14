@@ -178,4 +178,4 @@ extension UIImage {
 }
 
 
-fileprivate cl
+fileprivate class SmoothFilter : CI
