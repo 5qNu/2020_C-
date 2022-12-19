@@ -182,4 +182,5 @@ fileprivate class SmoothFilter : CIFilter {
     
     private let kernel: CIColorKernel
     var inputImage: CIImage?
-  
+    
+    required in
