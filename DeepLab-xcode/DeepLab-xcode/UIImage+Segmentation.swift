@@ -181,4 +181,4 @@ extension UIImage {
 fileprivate class SmoothFilter : CIFilter {
     
     private let kernel: CIColorKernel
- 
+    var inputIm
