@@ -183,4 +183,5 @@ fileprivate class SmoothFilter : CIFilter {
     private let kernel: CIColorKernel
     var inputImage: CIImage?
     
-    required init?(coder aDecoder: NSCode
+    required init?(coder aDecoder: NSCoder) {
+        fa
