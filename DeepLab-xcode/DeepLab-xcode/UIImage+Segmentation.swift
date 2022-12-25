@@ -184,4 +184,4 @@ fileprivate class SmoothFilter : CIFilter {
     var inputImage: CIImage?
     
     required init?(coder aDecoder: NSCoder) {
-        fatalError("init(
+        fatalError("init(coder:) has not 
