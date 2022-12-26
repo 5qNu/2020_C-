@@ -187,3 +187,4 @@ fileprivate class SmoothFilter : CIFilter {
         fatalError("init(coder:) has not been implemented")
     }
     
+    override init
