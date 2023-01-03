@@ -188,4 +188,5 @@ fileprivate class SmoothFilter : CIFilter {
     }
     
     override init() {
-        let kern
+        let kernelStr = """
+        
