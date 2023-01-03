@@ -189,4 +189,4 @@ fileprivate class SmoothFilter : CIFilter {
     
     override init() {
         let kernelStr = """
-        
+            kernel vec4
