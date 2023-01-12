@@ -191,4 +191,4 @@ fileprivate class SmoothFilter : CIFilter {
         let kernelStr = """
             kernel vec4 myColor(__sample source) {
                 float maskValue = smoothstep(0.3, 0.5, source.r);
-                return vec4(maskValue
+                return vec4(maskValue,maskValue,mask
