@@ -192,4 +192,5 @@ fileprivate class SmoothFilter : CIFilter {
             kernel vec4 myColor(__sample source) {
                 float maskValue = smoothstep(0.3, 0.5, source.r);
                 return vec4(maskValue,maskValue,maskValue,1.0);
-   
+            }
+        """
