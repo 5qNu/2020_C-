@@ -194,4 +194,4 @@ fileprivate class SmoothFilter : CIFilter {
                 return vec4(maskValue,maskValue,maskValue,1.0);
             }
         """
-        let kern
+        let kernels = CICo
