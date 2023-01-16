@@ -194,4 +194,4 @@ fileprivate class SmoothFilter : CIFilter {
                 return vec4(maskValue,maskValue,maskValue,1.0);
             }
         """
-        let kernels = CIColorKernel.makeKernels(so
+        let kernels = CIColorKernel.makeKernels(source:kern
