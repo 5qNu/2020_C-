@@ -195,4 +195,5 @@ fileprivate class SmoothFilter : CIFilter {
             }
         """
         let kernels = CIColorKernel.makeKernels(source:kernelStr)!
-        kernel = kernels[0] as! CICol
+        kernel = kernels[0] as! CIColorKernel
+      
