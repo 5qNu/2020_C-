@@ -199,4 +199,4 @@ fileprivate class SmoothFilter : CIFilter {
         super.init()
     }
     
-    
+    override va
