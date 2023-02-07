@@ -199,4 +199,5 @@ fileprivate class SmoothFilter : CIFilter {
         super.init()
     }
     
-    override var outputImage: CII
+    override var outputImage: CIImage? {
+        gu
