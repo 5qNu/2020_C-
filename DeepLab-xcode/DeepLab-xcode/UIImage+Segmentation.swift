@@ -200,4 +200,4 @@ fileprivate class SmoothFilter : CIFilter {
     }
     
     override var outputImage: CIImage? {
-        guard let inputImage = i
+        guard let inputImage = inputImage else 
