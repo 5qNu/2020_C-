@@ -201,4 +201,4 @@ fileprivate class SmoothFilter : CIFilter {
     
     override var outputImage: CIImage? {
         guard let inputImage = inputImage else {return nil}
-  
+        let blur
