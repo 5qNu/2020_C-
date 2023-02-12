@@ -202,4 +202,5 @@ fileprivate class SmoothFilter : CIFilter {
     override var outputImage: CIImage? {
         guard let inputImage = inputImage else {return nil}
         let blurFilter = CIFilter.init(name: "CIGaussianBlur")!
-        blurFilter.set
+        blurFilter.setDefaults()
+        
