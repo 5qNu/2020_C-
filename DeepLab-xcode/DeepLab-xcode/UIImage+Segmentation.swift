@@ -206,4 +206,4 @@ fileprivate class SmoothFilter : CIFilter {
         blurFilter.setValue(inputImage.extent.width / 90.0, forKey: kCIInputRadiusKey)
         blurFilter.setValue(inputImage, forKey: kCIInputImageKey)
         let bluredImage = blurFilter.value(forKey:kCIOutputImageKey) as! CIImage
-        return kernel.apply(extent: bluredImage.extent, arg
+        return kernel.apply(extent: bluredImage.extent, arguments: [blu
