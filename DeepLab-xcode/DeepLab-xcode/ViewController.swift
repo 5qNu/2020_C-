@@ -19,3 +19,14 @@ class ViewController: UIViewController {
                displayView.image = sourceImg
            }
        }
+       
+       override func viewDidLoad() {
+           super.viewDidLoad()
+           sourceImg = UIImage.init(named: "test.jpg")!
+       }
+       
+       override func viewWillAppear(_ animated: Bool) {
+           super.viewWillAppear(animated)
+    
+       }
+    
