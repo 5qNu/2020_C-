@@ -43,3 +43,17 @@ class ViewController: UIViewController {
        }
        
        @IBAction func handelGrayTap(_ sender: Any) {
+           if let cgImg = sourceImg.segmentation(){
+               let filter = GraySegmentFilter()
+               filter.inputImage = CIImage.init(cgImage: sourceImg.cgImage!)
+               filter.maskImage = CIImage.init(cgImage: cgImg)
+               let output = filter.value(forKey:kCIOutputImageKey) as! CIImage
+               
+               let ciContext = CIContext(options: nil)
+               let cgImage = ciContext.createCGImage(output, from: output.extent)!
+               displayView.image = UIImage(cgImage: cgImage)
+           }
+       }
+
+
+}
