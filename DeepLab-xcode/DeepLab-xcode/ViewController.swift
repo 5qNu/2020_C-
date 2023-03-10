@@ -30,3 +30,16 @@ class ViewController: UIViewController {
     
        }
     
+       @IBAction func handlePickerTap(_ sender: Any) {
+           let imagePicker =  UIImagePickerController()
+           imagePicker.delegate = self
+           present(imagePicker, animated: true, completion: nil)
+       }
+       
+       @IBAction func handleSegmentTap(_ sender: Any) {
+           if let cgImg = sourceImg.segmentation(){
+               displayView.image = UIImage(cgImage: cgImg)
+           }
+       }
+       
+       @IBAction func handelGrayTap(_ sender: Any) {
