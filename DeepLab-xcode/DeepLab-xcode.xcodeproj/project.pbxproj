@@ -10,3 +10,17 @@
 /* Begin PBXBuildFile section */
 		456DA1B623CF817700363BD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456DA1B523CF817700363BD9 /* AppDelegate.swift */; };
 		456DA1B823CF817700363BD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456DA1B723CF817700363BD9 /* SceneDelegate.swift */; };
+		456DA1BA23CF817700363BD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456DA1B923CF817700363BD9 /* ViewController.swift */; };
+		456DA1BD23CF817700363BD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 456DA1BB23CF817700363BD9 /* Main.storyboard */; };
+		456DA1BF23CF817800363BD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 456DA1BE23CF817800363BD9 /* Assets.xcassets */; };
+		456DA1C223CF817800363BD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 456DA1C023CF817800363BD9 /* LaunchScreen.storyboard */; };
+		456DA1CA23CF818A00363BD9 /* DeepLabV3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 456DA1C923CF818A00363BD9 /* DeepLabV3.mlmodel */; };
+		456DA1CC23CF822A00363BD9 /* UIImage+Segmentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456DA1CB23CF822A00363BD9 /* UIImage+Segmentation.swift */; };
+		456DA1CE23CF825500363BD9 /* GreySegmentFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456DA1CD23CF825500363BD9 /* GreySegmentFilter.swift */; };
+		456DA1D023CF82A800363BD9 /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 456DA1CF23CF82A800363BD9 /* test.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		456DA1B223CF817700363BD9 /* DeepLab-xcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DeepLab-xcode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		456DA1B523CF817700363BD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		456DA1B723CF817700363BD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
