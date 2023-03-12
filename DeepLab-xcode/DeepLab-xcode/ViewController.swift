@@ -57,3 +57,15 @@ class ViewController: UIViewController {
 
 
 }
+
+extension ViewController: UIImagePickerControllerDelegate,UINavigationControllerDelegate {
+ 
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        if let pickedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
+            sourceImg = pickedImage.resize(size: CGSize(width: 1200, height: 1200 * (pickedImage.size.height / pickedImage.size.width)))
+        }
+ 
+        picker.dismiss(animated: true, completion: nil)
+    }
+    
+}
