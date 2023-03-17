@@ -53,3 +53,14 @@
 				456DA1B323CF817700363BD9 /* Products */,
 			);
 			sourceTree = "<group>";
+		};
+		456DA1B323CF817700363BD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				456DA1B223CF817700363BD9 /* DeepLab-xcode.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		456DA1B423CF817700363BD9 /* DeepLab-xcode */ = {
+			isa = PBXGroup;
