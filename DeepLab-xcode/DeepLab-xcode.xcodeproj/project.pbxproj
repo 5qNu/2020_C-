@@ -34,3 +34,22 @@
 		456DA1CD23CF825500363BD9 /* GreySegmentFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreySegmentFilter.swift; sourceTree = "<group>"; };
 		456DA1CF23CF82A800363BD9 /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		456DA1AF23CF817700363BD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		456DA1A923CF817600363BD9 = {
+			isa = PBXGroup;
+			children = (
+				456DA1B423CF817700363BD9 /* DeepLab-xcode */,
+				456DA1B323CF817700363BD9 /* Products */,
+			);
+			sourceTree = "<group>";
