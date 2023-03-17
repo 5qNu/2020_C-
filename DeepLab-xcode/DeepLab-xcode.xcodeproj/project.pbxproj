@@ -79,3 +79,13 @@
 			);
 			path = "DeepLab-xcode";
 			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		456DA1B123CF817700363BD9 /* DeepLab-xcode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 456DA1C623CF817800363BD9 /* Build configuration list for PBXNativeTarget "DeepLab-xcode" */;
+			buildPhases = (
+				456DA1AE23CF817700363BD9 /* Sources */,
+				456DA1AF23CF817700363BD9 /* Frameworks */,
