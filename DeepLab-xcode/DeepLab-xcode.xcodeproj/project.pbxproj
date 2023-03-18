@@ -89,3 +89,21 @@
 			buildPhases = (
 				456DA1AE23CF817700363BD9 /* Sources */,
 				456DA1AF23CF817700363BD9 /* Frameworks */,
+				456DA1B023CF817700363BD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DeepLab-xcode";
+			productName = "DeepLab-xcode";
+			productReference = 456DA1B223CF817700363BD9 /* DeepLab-xcode.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		456DA1AA23CF817600363BD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
