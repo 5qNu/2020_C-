@@ -139,3 +139,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				456DA1C223CF817800363BD9 /* LaunchScreen.storyboard in Resources */,
+				456DA1BF23CF817800363BD9 /* Assets.xcassets in Resources */,
+				456DA1BD23CF817700363BD9 /* Main.storyboard in Resources */,
+				456DA1D023CF82A800363BD9 /* test.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		456DA1AE23CF817700363BD9 /* Sources */ = {
