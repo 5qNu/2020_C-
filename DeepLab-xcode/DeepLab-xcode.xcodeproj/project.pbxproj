@@ -149,3 +149,11 @@
 
 /* Begin PBXSourcesBuildPhase section */
 		456DA1AE23CF817700363BD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456DA1BA23CF817700363BD9 /* ViewController.swift in Sources */,
+				456DA1B623CF817700363BD9 /* AppDelegate.swift in Sources */,
+				456DA1CE23CF825500363BD9 /* GreySegmentFilter.swift in Sources */,
+				456DA1B823CF817700363BD9 /* SceneDelegate.swift in Sources */,
+				456DA1CC23CF822A00363BD9 /* UIImage+Segmentation.swift in Sources */,
