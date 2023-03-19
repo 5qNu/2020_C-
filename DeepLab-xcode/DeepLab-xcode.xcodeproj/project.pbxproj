@@ -120,3 +120,22 @@
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 456DA1A923CF817600363BD9;
+			productRefGroup = 456DA1B323CF817700363BD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				456DA1B123CF817700363BD9 /* DeepLab-xcode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		456DA1B023CF817700363BD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456DA1C223CF817800363BD9 /* LaunchScreen.storyboard in Resources */,
