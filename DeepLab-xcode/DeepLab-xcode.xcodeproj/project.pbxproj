@@ -157,3 +157,21 @@
 				456DA1CE23CF825500363BD9 /* GreySegmentFilter.swift in Sources */,
 				456DA1B823CF817700363BD9 /* SceneDelegate.swift in Sources */,
 				456DA1CC23CF822A00363BD9 /* UIImage+Segmentation.swift in Sources */,
+				456DA1CA23CF818A00363BD9 /* DeepLabV3.mlmodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		456DA1BB23CF817700363BD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				456DA1BC23CF817700363BD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		456DA1C023CF817800363BD9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
