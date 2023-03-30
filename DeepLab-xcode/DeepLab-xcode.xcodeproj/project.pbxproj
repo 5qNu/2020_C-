@@ -332,3 +332,18 @@
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		456DA1AD23CF817600363BD9 /* Build configuration list for PBXProject "DeepLab-xcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				456DA1C423CF817800363BD9 /* Debug */,
+				456DA1C523CF817800363BD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		456DA1C623CF817800363BD9 /* Build configuration list for PBXNativeTarget "DeepLab-xcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				456DA1C723CF817800363BD9 /* Debug */,
